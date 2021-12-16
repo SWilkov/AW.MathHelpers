@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AW.MathHelpers", "AW.MathHelpers\AW.MathHelpers.csproj", "{13D229C8-B22E-4B3F-A54B-3181C9E8AE4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6EAF566E-209A-48A2-91B6-8A422FB12653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AW.MathHelperTests", "AW.MathHelperTests\AW.MathHelperTests.csproj", "{BFD6BBCA-8201-4C8C-86EE-65DAD49B81AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13D229C8-B22E-4B3F-A54B-3181C9E8AE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D229C8-B22E-4B3F-A54B-3181C9E8AE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D229C8-B22E-4B3F-A54B-3181C9E8AE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D229C8-B22E-4B3F-A54B-3181C9E8AE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD6BBCA-8201-4C8C-86EE-65DAD49B81AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD6BBCA-8201-4C8C-86EE-65DAD49B81AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD6BBCA-8201-4C8C-86EE-65DAD49B81AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD6BBCA-8201-4C8C-86EE-65DAD49B81AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFD6BBCA-8201-4C8C-86EE-65DAD49B81AA} = {6EAF566E-209A-48A2-91B6-8A422FB12653}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {357D4BA0-B224-4419-BB4A-C1196762F9FF}
+	EndGlobalSection
+EndGlobal
